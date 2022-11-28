@@ -8,7 +8,7 @@ if (num == 1)
 else if (num > 0)
 {
     int print = 2;
-    while (print <= num) // выводит все числа от введённого до 25
+    while (print <= num) 
     {
         Console.Write($"{print} ");
         print += 2;
@@ -17,7 +17,7 @@ else if (num > 0)
 else
 {
     int print = 0;
-    while (print >= num) // выводит все числа от введённого до 25
+    while (print >= num) 
     {
         Console.Write($"{print} ");
         print = print - 2;
