@@ -7,19 +7,19 @@ if (num == 1)
 
 else if (num > 0)
 {
-    int print = 2;
-    while (print <= num) 
+    int even = 2;
+    while (even <= num)
     {
-        Console.Write($"{print} ");
-        print += 2;
+        Console.Write($"{even} ");
+        even += 2;
     }
 }
 else
 {
-    int print = 0;
-    while (print >= num) 
+    int even = 0;
+    while (even >= num)
     {
-        Console.Write($"{print} ");
-        print = print - 2;
+        Console.Write($"{even} ");
+        even = even - 2;
     }
 }
