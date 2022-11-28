@@ -6,11 +6,11 @@ if (num1 == num2)
 {
     Console.WriteLine($"Вы ввели ввели два одинаковых числа, они равны: {num1} = {num2}");
 }
-else if (num1>num2)
+else if (num1 > num2)
 {
     Console.WriteLine($"Максимальное число: {num1}, Минимальное число: {num2}");
 }
-else 
+else
 {
     Console.WriteLine($"Максимальное число: {num2}, Минимальное число: {num1}");
 }
