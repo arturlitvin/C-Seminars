@@ -4,7 +4,7 @@ Console.WriteLine("Введите второе целое число, отлич
 int num2 = Convert.ToInt32(Console.ReadLine());
 if (num1 == num2)
 {
-    Console.WriteLine($"Вы ввели ввели два одинаковых числа, они равны");
+    Console.WriteLine($"Вы ввели ввели два одинаковых числа, они равны: {num1} = {num2}");
 }
 else if (num1>num2)
 {
