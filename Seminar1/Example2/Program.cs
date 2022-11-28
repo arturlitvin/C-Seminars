@@ -18,4 +18,4 @@ else if (num1 == num2 / num1)
 else
 {
     Console.WriteLine("Квадраты чисел отсутствуют");
-}
+} 
