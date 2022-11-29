@@ -3,3 +3,5 @@ Console.WriteLine($"Сгенерировано случайное число: {n
 int max = num / 10;
 if (num % 10 > max) max = num % 10;
 Console.WriteLine($"Наибольшая цифра в этом числе это: {max}");
+
+for (int i = 0; i <= num; i++) Console.WriteLine($"{i}");
