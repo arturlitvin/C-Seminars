@@ -1,21 +1,16 @@
-﻿Console.WriteLine("Введите целое число");
+﻿Console.WriteLine("Введите натуральное целое число");
 int number = Convert.ToInt32(Console.ReadLine());
-int x = 0;
-
-if (number > 999)
+if (number > 99||number<-99)
 {
-    while (number >= 1000)
+    while (number >= 1000||number<=-1000)
     {
         number = number / 10;
-        x = number % 10;
     }
+    int x = number % 10;
+    if (x<0) x=-x;
+    
     Console.WriteLine($"Третья цифра слева: {x}");
 }
-else if (number>99&&number<=999)
-   {
-     x = number % 10;
-    Console.WriteLine($"Третья цифра слева: {x}");
-   }
 else
 {
     Console.WriteLine($"Третья цифра слева отсутствует");
