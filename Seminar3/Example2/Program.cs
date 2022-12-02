@@ -29,21 +29,21 @@ catch
 try
 {
     Console.WriteLine("Введите номер четверти(от 1 до 4)");
-int num = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(quarter(num));
+    int num = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine(quarter(num));
 }
 catch
 {
     Console.WriteLine("Нужно ввести число цифрами, другое не допускается");
 }
 
-string quarter (int num)
+string quarter(int num)
 {
-string res;
-if (num == 1) res = ("x > 0, y > 0");
-else if (num == 2) res = ("x < 0, y > 0");
-else if (num == 3) res = ("x < 0, y < 0");
-else if (num == 4) res = ("x > 0, y < 0");
-else res = ("Число не соответствует параметрам");
-return res;
+    string res;
+    if (num == 1) res = ("x > 0, y > 0");
+    else if (num == 2) res = ("x < 0, y > 0");
+    else if (num == 3) res = ("x < 0, y < 0");
+    else if (num == 4) res = ("x > 0, y < 0");
+    else res = ("Число не соответствует параметрам");
+    return res;
 }
