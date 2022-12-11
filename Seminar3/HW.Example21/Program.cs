@@ -4,11 +4,11 @@
 
 try
 {
-    Console.WriteLine("Введите координаты точки");
+    Console.WriteLine("Введите координаты первой точки");
     int x1 = Convert.ToInt32(Console.ReadLine());
     int y1 = Convert.ToInt32(Console.ReadLine());
     int z1 = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Введите координаты точки");
+    Console.WriteLine("Введите координаты второй точки");
     int x2 = Convert.ToInt32(Console.ReadLine());
     int y2 = Convert.ToInt32(Console.ReadLine());
     int z2 = Convert.ToInt32(Console.ReadLine());
