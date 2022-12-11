@@ -2,12 +2,6 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
-Console.WriteLine("Введите целое число");
-int num = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите интересующую вас степень числа");
-int deg = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Число {num} в {deg} степени равно {Result(num, deg)}");
-
 double Result(int num, int deg)
 {
     int num1 = 1;
@@ -17,3 +11,9 @@ double Result(int num, int deg)
     }
     return num1;
 }
+
+Console.WriteLine("Введите целое число");
+int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите интересующую вас степень числа");
+int deg = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Число {num} в {deg} степени равно {Result(num, deg)}");
