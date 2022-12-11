@@ -1,4 +1,5 @@
-﻿double[] CreateArray(int size)
+﻿// Задача 38: Задайте массив случайных вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+double[] CreateArray(int size)
 {
     double[] array = new double[size];
     for (int i = 0; i < size; i++)
@@ -28,7 +29,7 @@ void PrintDiff(double[] array)
         i++;
     }
     diff = max - min;
-    Console.WriteLine($"Минимальный элемент = {min}, max = {max}, Разница = {diff}");
+    Console.WriteLine($"Минимальный элемент = {min}, максимальный элемент = {max}, Разница = {diff}");
 }
 
 Console.WriteLine("Введите размерность массива");
