@@ -11,6 +11,6 @@ void Cubes(int num)
     }
 }
 
-Console.WriteLine("введите целое число");
+Console.WriteLine("Введите целое число");
 int num = Convert.ToInt32(Console.ReadLine());
 Cubes(num);
