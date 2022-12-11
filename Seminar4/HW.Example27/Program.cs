@@ -7,7 +7,7 @@
 
 Console.WriteLine("Введите целое число");
 int num = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(Summ(num));
+Console.WriteLine($"Сумма цифр в числе = {Summ(num)}");
 
 int Summ(int num)
 {
