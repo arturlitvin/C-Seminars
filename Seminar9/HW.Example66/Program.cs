@@ -12,9 +12,9 @@ Console.WriteLine($"сумма чисел от {M} до {N} равна {SummaRec
 
 
 int SummaRec(int N)
-{   
+{
     if (N == (M - 1)) return 0;
-    if (M>N) (M,N)=(N,M);
-    return N + SummaRec(N - 1); 
+    if (M > N) (M, N) = (N, M);
+    return N + SummaRec(N - 1);
 }
 

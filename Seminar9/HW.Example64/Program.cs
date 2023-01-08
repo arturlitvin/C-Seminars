@@ -11,6 +11,6 @@ int SummaRec(int n)
 {
     if (n == 0) return 0;
     Console.Write($"{n} ");
-    return n - SummaRec(n-1) ;
+    return n - SummaRec(n - 1);
 }
 
